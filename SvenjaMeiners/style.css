@@ -1,0 +1,810 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Couture';
+}
+
+.titel{
+
+    .titelbild { 
+        width: 100%;
+        height: 100vh;
+        background-image: url(titelbild.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;  
+    }
+
+    .schriftentitle {
+        width: 45%;
+        height: 30%;
+        position: relative;
+        margin-left: 50px;
+    }
+    .schriftentitle h2{
+        font-size: 84px;
+        color: #fff;
+        position: absolute;
+        top: 25%;
+        left: 82%;
+        transform: translateY(-50%);
+        z-index: 2;
+
+    }
+    .schriftentitle h3{
+        font-size: 80px;
+        font-weight: 100;
+        margin: 20px 0 10px;
+        color: #fff;
+        position: absolute;
+        top: 181%;
+        left: 82%;
+        transform: translateY(-50%);
+        z-index: 2;
+    }
+    .schriftentitle p{
+        position: absolute;
+        width: 850px;
+        height: 60px;
+        left: 240px;
+        top: 380px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .pschrift{
+        position: absolute;
+        height: 120px;
+        left: 10px;
+        top: 380px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 140px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+}
+
+.Bereich1{
+    background-color: #000;
+    position: absolute;
+    width: 102.4%;
+    height: 325vh;
+    left: -30px;
+    top: 820px;
+
+
+.BereichSchrift1{
+
+    position: absolute;
+    width: 1487px;
+    height: 120px;
+    left: 12px;
+    top: 60px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 140px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.BereichBilder1 {
+
+    .Bild1{
+        box-sizing: border-box;
+        position: absolute;
+        width: 326px;
+        height: 435px;
+        left: 612px;
+        top: 250px;
+        background-position: center;
+        background-size: cover;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-image: url(Kugel\ rosa\ mit\ sockel.jpg);
+    }
+
+    .Bild2{
+        box-sizing: border-box;
+        position: absolute;
+        width: 326px;
+        height: 435px;
+        left: 395px;
+        top: 750px;
+        background-position: center;
+        background-size: cover;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background-image: url(Kugel\ rosa\ ohne\ sockel.jpg);
+    }
+
+    .Bild3{
+        box-sizing: border-box;
+        position: absolute;
+        width: 326px;
+        height: 435px;
+        left: 818px;
+        top: 750px;
+        background-image: url(fünf\ kugeln.jpg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .Bild4{
+        box-sizing: border-box;
+        position: absolute;
+        width: 326px;
+        height: 435px;
+        left: 612px;
+        top: 1250px;
+        background-image: url(titelbild.jpg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .Bild5{
+        box-sizing: border-box;
+        position: absolute;
+        width: 326px;
+        height: 435px;
+        left: 395px;
+        top: 1750px;
+        background-image: url(vier\ kugeln\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .Bild6{
+        box-sizing: border-box;
+        position: absolute;
+        width: 326px;
+        height: 435px;
+        left: 818px;
+        top: 1750px;
+        background-image: url(Kugel\ Rosa\ m\ sockel\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+}
+.Bereich2{
+
+    position: absolute;
+    width: 102%;
+    height: 100vh;
+    left: -30px;
+    top: 3096px;
+    background: #FFFFFF;
+
+
+    .BereichSchrift2{
+        position: absolute;
+        width: 1487px;
+        height: 120px;
+        left: 220px;
+        top: 50px;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 96px;
+        color: #000;
+    }
+
+    .Bild7{
+        position: absolute;
+        width: 385px;
+        height: 410px;
+        left: 277px;
+        top: 190px;
+        background-image: url(Kugel\ hand\ hellrosa.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .Bild8{
+        position: absolute;
+        width: 385px;
+        height: 410px;
+        left: 831px;
+        top: 190px;
+        background-image: url(Kugel\ Hand.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+}
+
+.Bereich3{
+
+    position: absolute;
+    width: 102%;
+    height: 100vh;
+    left: -11px;
+    top: 3780px;
+    background: #000000;
+   
+    .BereichSchrift3{
+
+        position: absolute;
+        width: 1500px;
+        height: 96px;
+        left: 30px;
+        top: 50px;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 96px;
+        color: #F7F0F0;
+    }
+
+    .Beschreibung3{
+        position: absolute;
+        width: 1500px;
+        height: 96px;
+        left: 230px;
+        top: 580px;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 26px;
+        color: #F7F0F0;
+
+    }
+    .Beschreibung33{
+        position: absolute;
+        width: 1500px;
+        height: 96px;
+        left: 890px;
+        top: 580px;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 26px;
+        color: #F7F0F0;
+    }
+
+    
+    .Bild9{
+        position: absolute;
+        width: 385px;
+        height: 410px;
+        left: 255px;
+        top: 200px;
+        background-image: url(Kugel\ hellblau\ perlmutt.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .Bild10{
+        position: absolute;
+        width: 385px;
+        height: 410px;
+        left: 910px;
+        top: 200px;   
+        background-image: url(Kugel\ lila\ matt\ perlmutt.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+.Bereich4{
+    position: absolute;
+    width: 102%;
+    height: 60vh;
+    left: 0px;
+    top: 4510px;
+    background: #ffffff;
+
+        .BereichSchrift4{
+            position: absolute;
+            width: 1512px;
+            height: 84px;
+            left: -50px;
+            top: 50px;
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 84px;
+            text-align: center;
+            color: #000000;    
+        }
+
+        .Beschreibung4{
+            position: absolute;
+            width: 1500px;
+            height: 96px;
+            left: 3px;
+            top: 480px;
+            font-weight: 800;
+            font-size: 21px;
+            line-height: 26px;
+            color: #000;
+            word-spacing: 12em;
+        }
+
+        .Bild11{
+            position: absolute;
+            width: 260px;
+            height: 242px;
+            left: 77px;
+            top: 250px;
+            background-image: url(kugel\ blau.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .Bild12{
+            position: absolute;
+            width: 260px;
+            height: 242px;
+            left: 402px;
+            top: 250px;
+            background-image: url(Kugel\ lila.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .Bild13{
+            position: absolute;
+            width: 260px;
+            height: 242px;
+            left: 727px;
+            top: 250px;
+            background-image: url(kugel\ rot.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .Bild14{
+            position: absolute;
+            width: 260px;
+            height: 242px;
+            left: 1052px;
+            top: 250px;
+            background-image: url(Kugel\ schwarrz.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .Button{
+            position: absolute;
+            top: 560px;
+            left: 620px;
+            width: 120px;
+            color: #000;
+            padding: 10px 25px;
+            background: transparent;
+            border: 1px solid #000;
+            border-radius: 20px;
+            outline: none;
+            cursor: pointer;
+        }
+        .Button img{
+            width: 30px;
+            display: none;
+        }
+
+        .Button:hover img{
+            display: block;
+        }
+        .Button:hover {
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+}
+
+.Ende{
+    position: absolute;
+    width: 102%;
+    height: 70vh;
+    left: 0px;
+    top: 5150px;
+    background: #000000;
+
+    .schriftende{
+        position: absolute;
+        width: 278px;
+        height: 96px;
+        left: 510px;
+        top: 210px;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .links{
+        position: absolute;
+        width: 1500px;
+        height: 96px;
+        left: 300px;
+        top: 435px;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 26px;
+        color: #F7F0F0;  
+        word-spacing: 19em;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+   
+   .titel{
+
+    .titelbild{
+        background-image: url(titelbild.jpg);
+        box-sizing: border-box;
+        position: absolute;
+        width: 428px;
+        height: 576px;
+        left: 0px;
+        top: 0px;
+        border: 1px solid #000000;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .schriftentitle h2{
+        position: absolute;
+        width: 174px;
+        height: 60px;
+        left: 90px;
+        top: 40px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .schriftentitle h3{
+        position: absolute;
+        width: 419px;
+        height: 91px;
+        left: -40px;
+        top: 319px;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .schriftentitle p{
+        position: absolute;
+        width: 419px;
+        height: 33px;
+        left: -57px;
+        top: 250px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .pschrift{
+        position: absolute;
+        width: 419px;
+        height: 75px;
+        left: -70x;
+        top: 260px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+   }    
+   .Bereich1{
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 428px;
+    height: 2264px;
+    left: 0px;
+    top: 576px;
+    background: #000000;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+    .BereichSchrift1{
+        position: absolute;
+        width: 417px;
+        height: 120px;
+        left: 11px;
+        top: 35px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .BereichBilder1{
+        .Bild1{
+            position: absolute;
+            width: 280px;
+            height: 348px;
+            left: 74px;
+            top: 170px;
+            background-image: url(Kugel\ rosa\ mit\ sockel.jpg);
+        }
+        .Bild2{
+            position: absolute;
+            width: 280px;
+            height: 348px;
+            left: 74px;
+            top: 570px;
+            background-image: url(Kugel\ rosa\ ohne\ sockel.jpg);
+        }
+        .Bild3{
+            position: absolute;
+            width: 280px;
+            height: 348px;
+            left: 74px;
+            top: 970px;
+            background-image: url(fünf\ kugeln.jpg);
+        }
+        .Bild4{
+            display: none;
+        }
+        .Bild5{
+            position: absolute;
+            width: 280px;
+            height: 348px;
+            left: 74px;
+            top: 1370px;
+            background-image: url(vier\ kugeln\ 1.jpg);
+        }
+        .Bild6{
+            position: absolute;
+            width: 280px;
+            height: 348px;
+            left: 74px;
+            top: 1770px; 
+            background-image: url(Kugel\ Rosa\ m\ sockel\ 1.jpg);
+        }
+   }
+} 
+   .Bereich2{
+    position: absolute;
+    width: 428px;
+    height: 720px;
+    left: 0px;
+    top: 2729px;
+    background: #FFFFFF;
+
+        .BereichSchrift2{
+            position: absolute;
+            width: 425px;
+            height: 109px;
+            left: 3px;
+            top: 20px;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 60px;
+            text-align: center;
+            color: #000000;
+        }
+
+        .BereichBilder2{
+            .Bild7{
+                position: absolute;
+                width: 262px;
+                height: 245px;
+                left: 86px;
+                top: 145px;
+                background-image: url(Kugel\ hand\ hellrosa.jpg);
+            }
+
+            .Bild8{
+                position: absolute;
+                width: 262px;
+                height: 245px;
+                left: 86px;
+                top: 410px;
+                background-image: url(Kugel\ Hand.jpg);
+            }
+        }
+    }
+    .Bereich3{
+        position: absolute;
+        width: 428px;
+        height: 790px;
+        left: 0px;
+        top: 3399px;
+        background: #000000;
+    
+        .BereichSchrift3{
+            position: absolute;
+            width: 425px;
+            height: 109px;
+            left: 3px;
+            top: 30px;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 60px;
+            text-align: center;
+            color: #fff;  
+        }
+        
+        .Bild9{
+            position: absolute;
+            width: 262px;
+            height: 245px;
+            left: 86px;
+            top: 150px;
+            background-image: url(Kugel\ hellblau\ perlmutt.jpg);
+        }
+        .Bild10{
+            position: absolute;
+            width: 262px;
+            height: 245px;
+            left: 86px;
+            top: 460px;
+            background-image: url(Kugel\ lila\ matt\ perlmutt.jpg);
+        }
+        .Beschreibung3{
+            position: absolute;
+            width: 417px;
+            height: 120px;
+            left: 11px;
+            top: 380px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .Beschreibung33{
+            position: absolute;
+            width: 417px;
+            height: 120px;
+            left: 11px;
+            top: 690px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;  
+        }
+    }
+    .Bereich4{
+        position: absolute;
+        width: 428px;
+        height: 1007px;
+        left: 0px;
+        top: 4193px;
+        background: #FFFFFF;
+    
+        .BereichSchrift4{
+            position: absolute;
+            width: 428px;
+            height: 97px;
+            left: -2px;
+            top: 30px;
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 46px;
+            text-align: center;
+            color: #000000;
+        }
+        .Bild11{
+            position: absolute;
+            width: 262px;
+            height: 245px;
+            left: 86px;
+            top: 130px;
+            background-image: url(kugel\ blau.jpg);
+        }
+        .Bild12{
+            position: absolute;
+            width: 262px;
+            height: 245px;
+            left: 86px;
+            top: 460px;
+            background-image: url(Kugel\ lila.jpg);
+        }
+        .Bild13{
+            position: absolute;
+            width: 262px;
+            height: 245px;
+            left: 86px;
+            top: 790px; 
+            background-image: url(kugel\ rot.jpg);
+        }
+        .Bild14{
+            position: absolute;
+            width: 262px;
+            height: 245px;
+            left: 86px;
+            top: 1110px; 
+            background-image: url(Kugel\ schwarrz.jpg);
+        }
+        .Beschreibung4{
+            position: absolute;
+            width: 174px;
+            height: 60px;
+            left: 130px;
+            top: 220px;
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 325px;
+            text-align: center;
+            color: #000;
+            word-wrap: break-word;
+        }
+        .Button{
+            position: absolute;
+            top: 1460px;
+            left: 130px;
+            width: 120px;
+            color: #000;
+            padding: 10px 25px;
+            background: transparent;
+            border: 1px solid #000;
+            border-radius: 20px;
+            outline: none;
+            cursor: pointer;
+        }
+        .Button img{
+            width: 30px;
+            display: none;
+        }
+
+        .Button:hover img{
+            display: block;
+        }
+        .Button:hover {
+            width: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+    .Ende{
+        position: absolute;
+        width: 428px;
+        height: 604px;
+        left: 0px;
+        top: 5765px;
+        background: #000000;
+    
+        .schriftende{
+            position: absolute;
+            width: 174px;
+            height: 60px;
+            left: 90px;
+            top: 200px;
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 60px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .links{
+            position: absolute;
+            width: 174px;
+            height: 60px;
+            left: 130px;
+            top: 280px;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 60px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    } 
+}
